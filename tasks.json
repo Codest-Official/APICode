@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "name": "Run All Unit Tests",
+      "command": "python -m unittest discover",
+      "description": "Discovers and runs all tests in the project."
+    },
+    {
+      "name": "Lint Code (Pyflakes)",
+      "command": "pyflakes .",
+      "description": "Checks the entire codebase for common errors."
+    },
+    {
+      "name": "Format Code (autopep8)",
+      "command": "autopep8 --in-place --recursive .",
+      "description": "Formats all Python files in the project in-place."
+    }
+  ]
+}
